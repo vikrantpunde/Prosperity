@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Tests.JoinPageTest">
+        <methods>
+          <include name="getResult"/>
+          <include name="setup"/>
+          <include name="runDriver"/>
+          <include name="invalidEmaildTest"/>
+          <include name="close"/>
+          <include name="notApprovedDomainMessageTest"/>
+        </methods>
+      </class> <!-- Tests.JoinPageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

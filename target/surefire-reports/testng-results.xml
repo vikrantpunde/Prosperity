@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" total="6" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="146174" started-at="2018-09-12T06:24:46Z" finished-at="2018-09-12T06:27:12Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="146174" started-at="2018-09-12T06:24:46Z" finished-at="2018-09-12T06:27:12Z">
+      <class name="Tests.DepositTest">
+        <test-method status="PASS" signature="setupChromeDriver()[pri:0, instance:Tests.DepositTest@29774679]" name="setupChromeDriver" is-config="true" duration-ms="51" started-at="2018-09-12T11:54:46Z" finished-at="2018-09-12T11:54:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupChromeDriver -->
+        <test-method status="PASS" signature="runDriver()[pri:0, instance:Tests.DepositTest@29774679]" name="runDriver" is-config="true" duration-ms="27224" started-at="2018-09-12T11:54:46Z" finished-at="2018-09-12T11:55:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runDriver -->
+        <test-method status="FAIL" signature="successfulDeposit()[pri:0, instance:Tests.DepositTest@29774679]" name="successfulDeposit" duration-ms="14827" started-at="2018-09-12T11:55:13Z" finished-at="2018-09-12T11:55:28Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:286)
+	at org.testng.Assert.assertEquals(Assert.java:296)
+	at Tests.DepositTest.successfulDeposit(DepositTest.java:67)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulDeposit -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Tests.DepositTest@29774679]" name="close" is-config="true" duration-ms="580" started-at="2018-09-12T11:55:32Z" finished-at="2018-09-12T11:55:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Tests.DepositTest -->
+      <class name="Tests.NewCustomerTest">
+        <test-method status="PASS" signature="runDriver()[pri:0, instance:Tests.NewCustomerTest@1bce4f0a]" name="runDriver" is-config="true" duration-ms="20939" started-at="2018-09-12T11:56:20Z" finished-at="2018-09-12T11:56:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runDriver -->
+        <test-method status="FAIL" signature="successfulCustomerAdd()[pri:0, instance:Tests.NewCustomerTest@1bce4f0a]" name="successfulCustomerAdd" duration-ms="28377" started-at="2018-09-12T11:56:41Z" finished-at="2018-09-12T11:57:09Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:286)
+	at org.testng.Assert.assertEquals(Assert.java:296)
+	at Tests.NewCustomerTest.successfulCustomerAdd(NewCustomerTest.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulCustomerAdd -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Tests.NewCustomerTest@1bce4f0a]" name="close" is-config="true" duration-ms="506" started-at="2018-09-12T11:57:12Z" finished-at="2018-09-12T11:57:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Tests.NewCustomerTest -->
+      <class name="Tests.LoginTest">
+        <test-method status="PASS" signature="runDriver()[pri:0, instance:Tests.LoginTest@5c3bd550]" name="runDriver" is-config="true" duration-ms="16776" started-at="2018-09-12T11:55:33Z" finished-at="2018-09-12T11:55:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runDriver -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.LoginTest@5c3bd550]" name="setup" is-config="true" duration-ms="0" started-at="2018-09-12T11:55:50Z" finished-at="2018-09-12T11:55:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="invalidUsernamePassword()[pri:0, instance:Tests.LoginTest@5c3bd550]" name="invalidUsernamePassword" duration-ms="1709" started-at="2018-09-12T11:55:50Z" finished-at="2018-09-12T11:55:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUsernamePassword -->
+        <test-method status="PASS" signature="invalidUsernameValidPassword()[pri:0, instance:Tests.LoginTest@5c3bd550]" name="invalidUsernameValidPassword" duration-ms="6535" started-at="2018-09-12T11:55:51Z" finished-at="2018-09-12T11:55:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUsernameValidPassword -->
+        <test-method status="PASS" signature="validUsernameInvalidPassword()[pri:0, instance:Tests.LoginTest@5c3bd550]" name="validUsernameInvalidPassword" duration-ms="5164" started-at="2018-09-12T11:55:58Z" finished-at="2018-09-12T11:56:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUsernameInvalidPassword -->
+        <test-method status="PASS" signature="validUsernamePassword()[pri:0, instance:Tests.LoginTest@5c3bd550]" name="validUsernamePassword" duration-ms="15658" started-at="2018-09-12T11:56:03Z" finished-at="2018-09-12T11:56:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUsernamePassword -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Tests.LoginTest@5c3bd550]" name="close" is-config="true" duration-ms="1222" started-at="2018-09-12T11:56:19Z" finished-at="2018-09-12T11:56:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Tests.LoginTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="Tests.DepositTest">
+        <methods>
+          <include name="successfulDeposit"/>
+          <include name="runDriver"/>
+          <include name="close"/>
+          <include name="setupChromeDriver"/>
+        </methods>
+      </class> <!-- Tests.DepositTest -->
+      <class name="Tests.NewCustomerTest">
+        <methods>
+          <include name="successfulCustomerAdd"/>
+          <include name="runDriver"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Tests.NewCustomerTest -->
+      <class name="Tests.LoginTest">
+        <methods>
+          <include name="setup"/>
+          <include name="runDriver"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Tests.LoginTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

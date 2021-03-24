@@ -1,0 +1,6 @@
+Pages\CustomerRegMsg.class
+Pages\LoginPage.class
+Pages\HomePage.class
+Pages\NewCustomerPage.class
+Utility\Util.class
+Pages\DepositPage.class
