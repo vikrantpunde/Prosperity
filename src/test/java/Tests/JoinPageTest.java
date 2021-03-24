@@ -37,16 +37,7 @@ public class JoinPageTest extends BaseClass{
 		  test = extent.createTest("notApproveddomainMessageTest");
 		  obj.enterEmail("ABA@abc.com");
 		  obj.clickContinue();
-		  String text = obj.notApprovedDomain();
-		  
-		  if(text.equals(Util.notApprovedDmnErrorMessage))
-		  {
-			  System.out.println("if executed TRUETrue");
-		  }
-		  
-		  System.out.println(Util.notApprovedDmnErrorMessage);
-		  System.out.println(text);
-		  
+		  String text = obj.notApprovedDomain(); 
 		  assertTrue(text.contains(Util.notApprovedDmnErrorMessage)); 
 	  }
 }
