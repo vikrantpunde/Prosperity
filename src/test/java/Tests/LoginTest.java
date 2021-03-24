@@ -58,7 +58,7 @@ public class LoginTest extends BaseClass{
 	  String text = obj.invalidEmailText();
 	  System.out.println(text);
 	  System.out.println(Util.invalidEmailErrorMessage);
-	  assertFalse(text.equals(Util.invalidEmailErrorMessage));
+	  assertTrue(text.equals(Util.invalidEmailErrorMessage));
   }
   
 }
